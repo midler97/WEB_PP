@@ -58,6 +58,6 @@ h3{
     z-index: 1; 
     text-align: center;
     padding: 50px;
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     
   }
