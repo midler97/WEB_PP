@@ -19,7 +19,7 @@
 
 </head>
 
-<body style="background-repeat: no-repeat; background-attachment:fixed; background-image:url(./slike/22.png);">
+<body style="background-repeat: no-repeat; background-attachment:fixed; background-color:#ccc">
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark " style="background-color: rgba(0, 0, 0, 0.85);">
         <!-- navbar-brand - stilizacija linka unutar Bootstrapa -->
@@ -58,6 +58,116 @@
                 </li>
                
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
+        </div>
+        <b style="padding-right: 30px; color: rgb(255, 255, 255);" id="clock"></b>
+    </nav>
+
+    <div class="progress-container"
+    style="padding-top: 20px;width: 100%;height: 8px;background: rgba(0, 0, 0, 0.85); position: fixed;">
+    <div class="progress-bar" style=" position: fixed;height: 8px;background: white; width: 0%;" id="myBar"></div>
+</div>
+
+
+
+    <!-- jumbotron - Bootstrapova klasa za stilizovan blok -->
+    <!-- margin-bottom: 0 - znaci nemamo nista ispod ovog elementa -->
+    <div class="jumbotron text-center"
+        style="background-color: rgba(0, 0, 0, 0.85); margin-bottom: 0;padding-top: 100px;width: 100%;">
+        <h1>Just do it</h1>
+    </div>
+
+    <div class="container-fluid" style="background-image: url(./galerija/1.jpg);">
+        <!-- row - red koji ce kontrolisati kolone (col) -->
+        <div class="row" style="background-color: rgba(255, 255, 255, 0.721);padding-bottom: 100px;">
+            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+            <div class="col-md-1 text-center"></div>
+            <div class="col-md-4 text-center" style=" padding-top: 7%;">
+                <img class="card-img-top rounded" style="height: 100%;width: 150%;" src="./galerija/2.jpg"
+                    alt="Card image">
+            </div>
+            <div class="col-md-6 text-center" style="text-align: center;padding-top: 15%; padding-left: 25%; ">
+                <h3 >Find the best sports equipment in one place </h3><br>
+                <h4>
+                    Are you interested in what's on sale? <br>We have a million products on sale for you</h4><br>
+                
+            </div>
+        </div>
+
+
+        <div class="row" >
+            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+            <div class="col-md-12 text-center"
+                style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+                <div class="tekst">The most popular men sneakers on the earth</div>
+
+            </div>
+        </div>
+        <div class="row">
+            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+            <div class="col-md-1 text-center"></div>
+            <div class="col-md-10 text-center" style=" padding-top: 3%;">
+                <div class="card">
+                    <img class="card-img-top rounded" style="height: 100%;" src="./galerija/Panda.png"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title" style="padding-top: 230px;">NIKE DUNK LOW RETRO</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+            <div class="col-md-12 text-center"
+                style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+                <div class="tekst">Contact us and order your items now!</div>
+
+            </div>
+            <div class="container-fluid" style="height: 165px;text-align: center;padding-top: 1.5%;">
+                <a href="#" button type="button" class="btn btn-dark btn-lg">Contact</button></a>
+            </div>
+        </div>
+    </div>
+
+        <div class="jumbotron text-center p-3"
+            style="background-color: rgb(23, 23, 23); bottom: 0; position: fixed; width: 100%; margin-bottom: 0px; text-align: center;">
+            <div class="row">
+                <div class="col-sm-4"><b style="color: white; ">Djordje: <a
+                            href="mailto:znackatraz23@gmail.com">znackatraz23@gmail.com </a></b></div>
+                <div class="col-sm-4"> <b style="color: white;">Arsenije: <a
+                            href="mailto:arsenijedub@gmail.com ">arsenijedub@gmail.com </a></b></div>
+                <div class="col-sm-4"><b style="color: white;">Ognjen: <a
+                            href="ognjenbogic@gmail.com">ognjenbogic@gmail.com</a></b></div>
+            </div>
+        </div>
+
+       
+        <script>
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function () { myFunction() };
+
+            function myFunction() {
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+                document.getElementById("myBar").style.width = scrolled + "%";
+            }
+        </script>
+        <script>
+            var myVar = setInterval(function () {
+                myTimer();
+            }, 1000);
+
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+
+</body>
+
+</html>
