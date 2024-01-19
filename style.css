@@ -61,3 +61,20 @@ h3{
     background-color: rgba(0,0,0,0.8);
     
   }
+
+  .accordion-button {
+    font-size: 30px; /* Prilagodite veličinu fonta pitanja */
+    border: none; /* Uklonite border */
+    background-color: transparent; /* Uklonite boju pozadine */
+    text-align: left; /* Poravnajte tekst na levo */
+}
+
+.accordion-item {
+    border: none; /* Uklonite border */
+    margin-bottom: 5px; /* Postavite razmak između pitanja i odgovora */
+}
+
+.accordion-body {
+    font-size: 20px; /* Prilagodite veličinu fonta odgovora */
+    text-align: center;
+}
