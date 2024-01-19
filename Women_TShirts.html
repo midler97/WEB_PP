@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Naslovna</title>
+    <!-- Djordje Jovanovic AI48/2021-->
+    <!-- Arsenije Dubljanin AI50/2021-->
+    <!-- Ognjen Bogicevic AI 62/2021-->
+
+    <!-- ove 4 linije koda moramo kopirati sa w3schools (B4 ili B5) kako bi uopste funkcionisao Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- ovaj smo dodali da bi radio dropdown menu -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body style="background-repeat: no-repeat; background-attachment:fixed; background-color:#000000">
+
+    <nav class="navbar navbar-expand-sm  navbar-dark " style="background-color: rgba(0, 0, 0, 1);">
+        <!-- navbar-brand - stilizacija linka unutar Bootstrapa -->
+        <a class="navbar-brand" href="./Naslovna.html"><img src="galerija/nike logo.png" alt="Nike Logo"
+                style="width:40px;"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Test">
+            <!-- navbar-toggler-icon - za ikonicu dugmeta -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="Test">
+            <!-- neuredjena lista koja predstavlja kontejner za niz navigacionih linkova - ul -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="newandfeatured.html">New and featured</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Men</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Men_Sneakers.html">Sneakers</a></li>
+                        <li><a class="dropdown-item" href="Men_TShirts.html">T-shirts</a></li>
+                        <li><a class="dropdown-item" href="Men_Hoodies.html">Hoodies</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Women</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Women_Sneakers.html">Sneakers</a></li>
+                        <li><a class="dropdown-item" href="Women_TShirts.html">T-shirts</a></li>
+                        <li><a class="dropdown-item" href="Women_TShirts.html">Hoodies</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kids.html">Kids</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <b style="padding-right: 30px; color: rgb(255, 255, 255);" id="clock"></b>
+    </nav>
+
+    
+
+
+
+    <!-- jumbotron - Bootstrapova klasa za stilizovan blok -->
+    <!-- margin-bottom: 0 - znaci nemamo nista ispod ovog elementa -->
+    
+ 
+    <div id="content"; >
+        <h2>Just do it</h2><br>
+        <h3>Women's T-Shirts</h3>
+        
+      </div>
+
+    <video id="video-background" autoplay muted loop>
+      <source src="Women Commercal TShirt.mp4" type="video/mp4">
+      
+    </video>
+    
+    <div class="container-fluid">
+        <!-- row - red koji će kontrolisati kolone (col) -->
+        <div class="row" style="padding-bottom: 100px;">
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6 text-center" style="padding-top: 5%; padding-left: 100px;">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top rounded" style="height: 100%;width: 100%;" src="./sportswear-essential-womens-t-shirt.png" alt="Essentials TShirt">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: black;">Nike Sportswear Essential</h3>
+                        <h6>€29.99</h6>
+                        <p class="card-text">Say hello to your go-to cotton tee. Slightly dropped shoulder seams and a loose fit make it comfortable enough to wear around the house yet elevated enough to wear out in the city.</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6" style="margin-top: 300px;">
+                <div class="container mt-3">
+                    <div class="card img-fluid" style="width:500px;">
+                        <img class="card-img-top" src="./women reklama t1.jpg" alt="women add t1" style="width:100%">
+                        <div class="card-img-overlay">
+                            <a href="#" class="btn btn-primary btn-lg">SHOP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row" style="padding-top:7% ;" >
+        <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+        <div class="col-md-12 text-center"
+            style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+            <div class="tekst">Victory in Every Breath</div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <!-- row - red koji će kontrolisati kolone (col) -->
+        <div class="row" style="padding-bottom: 100px;">
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6 text-center" style="padding-top: 5%; padding-left: 100px;">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top rounded" style="height: 100%;width: 100%;" src="./zenvy-rib-womens-dri-fit-short-sleeve-cropped-top.jpg" alt="Zenvy Rib">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: black;">Nike Zenvy Rib</h3>
+                        <h6>€69.99</h6>
+                        <p class="card-text">Find your bliss in this body-hugging top. Its ribbed InfinaSoft fabric adds dimension to your look while still offering softness you can feel with every bend, stretch and shift. With sweat-wicking tech that helps keep you dry and cool, you can stay comfortable and confident from the mat to wherever your next move is.</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6" style="margin-top: 300px;">
+                <div class="container mt-3">
+                    <div class="card img-fluid" style="width:500px;">
+                        <img class="card-img-top" src="./women reklama t2.webp" alt="women add t2" style="width:100%">
+                        <div class="card-img-overlay">
+                            <a href="#" class="btn btn-primary btn-lg">SHOP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <div class="row" style="padding-top:7% ;" >
+        <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+        <div class="col-md-12 text-center"
+            style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+            <div class="tekst">Empower Your Hustle</div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- row - red koji će kontrolisati kolone (col) -->
+        <div class="row" style="padding-bottom: 100px;">
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6 text-center" style="padding-top: 5%; padding-left: 100px;">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top rounded" style="height: 100%;width: 100%;" src="./sportswear-essential-womens-oversized-long-sleeve-polo.png" alt="Long Sleeve Polo">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: black;">Oversized Long-Sleeve Polo</h3>
+                        <h6>€69.99</h6>
+                        <p class="card-text">Stay ready for any occasion in this oversized polo. Smooth jersey fabric drapes nicely for relaxed comfort, while the ribbed cuffs keep you looking spiffy.
+
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6" style="margin-top: 300px;">
+                <div class="container mt-3">
+                    <div class="card img-fluid" style="width:500px;">
+                        <img class="card-img-top" src="./women reklama t3.webp" alt="women add t3" style="width:100%">
+                        <div class="card-img-overlay">
+                            <a href="#" class="btn btn-primary btn-lg">SHOP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row" style="padding-top:7% ;" >
+        <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+        <div class="col-md-12 text-center"
+            style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+            <div class="tekst">Rise Above, Run Beyond</div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- row - red koji će kontrolisati kolone (col) -->
+        <div class="row" style="padding-bottom: 100px;">
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6 text-center" style="padding-top: 5%; padding-left: 100px;">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top rounded" style="height: 100%;width: 100%;" src="./sportswear-essential-womens-ribbed-long-sleeve-mod-crop-top.jpg" alt="Ribbed Long Sleeve">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: black;">Ribbed Long-Sleeve</h3>
+                        <h6>€49.99</h6>
+                        <p class="card-text">Versatile and customizable—drawstrings on both sides let you decide if you want to wear this top long or cropped. And no matter how you style it, the lightweight, ribbed fabric feels comfy all day long!</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- col-md-6 - col se odnosi na kolonu, md-medium, 6 na sirinu 6 -->
+            <div class="col-md-6" style="margin-top: 300px;">
+                <div class="container mt-3">
+                    <div class="card img-fluid" style="width:500px;">
+                        <img class="card-img-top" src="./women reklama t4.jpg" alt="women add t4" style="width:100%">
+                        <div class="card-img-overlay">
+                            <a href="#" class="btn btn-primary btn-lg">SHOP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+
+        <div class="row">
+            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
+            <div class="col-md-12 text-center"
+                style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
+                <div class="tekst">Contact us and order your items now!</div>
+
+            </div>
+            <div class="container-fluid" style="height: 165px;text-align: center;padding-top: 1.5%;">
+                <a href="#" button type="button" class="btn btn-dark btn-lg">Contact</button></a>
+            </div>
+        </div>
+    </div>
+
+        <div class="jumbotron text-center p-3"
+            style="background-color: rgb(23, 23, 23); bottom: 0; position: fixed; width: 100%; margin-bottom: 0px; text-align: center;">
+            <div class="row">
+                <div class="col-sm-4"><b style="color: white; ">Djordje: <a
+                            href="mailto:znackatraz23@gmail.com">znackatraz23@gmail.com </a></b></div>
+                <div class="col-sm-4"> <b style="color: white;">Arsenije: <a
+                            href="mailto:arsenijedub@gmail.com ">arsenijedub@gmail.com </a></b></div>
+                <div class="col-sm-4"><b style="color: white;">Ognjen: <a
+                            href="ognjenbogic@gmail.com">ognjenbogic@gmail.com</a></b></div>
+            </div>
+        </div>
+
+       
+        </script>
+        <script>
+            var myVar = setInterval(function () {
+                myTimer();
+            }, 1000);
+
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+          <script>
+            // Resize the video background to match the window size
+            window.addEventListener('resize', function () {
+              var video = document.getElementById('video-background');
+              video.style.height = window.innerHeight + 'px';
+            });
+        
+            // Trigger the resize event initially
+            window.dispatchEvent(new Event('resize'));
+          </script>
+</body>
+
+</html>
