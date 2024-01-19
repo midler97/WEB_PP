@@ -19,9 +19,9 @@
 
 </head>
 
-<body style="background-repeat: no-repeat; background-attachment:fixed; background-color:#ccc">
+<body style="background-repeat: no-repeat; background-attachment:fixed; background-color:#000000">
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark " style="background-color: rgba(0, 0, 0, 0.85);">
+    <nav class="navbar navbar-expand-sm  navbar-dark " style="background-color: rgba(0, 0, 0, 1);">
         <!-- navbar-brand - stilizacija linka unutar Bootstrapa -->
         <a class="navbar-brand" href="./Naslovna.html"><img src="galerija/nike logo.png" alt="Nike Logo"
                 style="width:40px;"></a>
@@ -65,61 +65,223 @@
         <b style="padding-right: 30px; color: rgb(255, 255, 255);" id="clock"></b>
     </nav>
 
-    <div class="progress-container"
-    style="padding-top: 20px;width: 100%;height: 8px;background: rgba(0, 0, 0, 0.85); position: fixed;">
-    <div class="progress-bar" style=" position: fixed;height: 8px;background: white; width: 0%;" id="myBar"></div>
-</div>
+    
 
 
 
     <!-- jumbotron - Bootstrapova klasa za stilizovan blok -->
     <!-- margin-bottom: 0 - znaci nemamo nista ispod ovog elementa -->
-    <div class="jumbotron text-center"
-        style="background-color: rgba(0, 0, 0, 0.85); margin-bottom: 0;padding-top: 100px;width: 100%;">
-        <h1>Just do it</h1>
-    </div>
+    
+ 
+    <div id="content"; >
+        <h2>Just do it</h2><br>
+        <h3>Men's Sneakers</h3>
+        
+      </div>
 
-    <div class="container-fluid" style="background-image: url(./galerija/1.jpg);">
-        <!-- row - red koji ce kontrolisati kolone (col) -->
-        <div class="row" style="background-color: rgba(255, 255, 255, 0.721);padding-bottom: 100px;">
-            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
-            <div class="col-md-1 text-center"></div>
-            <div class="col-md-4 text-center" style=" padding-top: 7%;">
-                <img class="card-img-top rounded" style="height: 100%;width: 150%;" src="./galerija/2.jpg"
-                    alt="Card image">
+    <video id="video-background" autoplay muted loop>
+      <source src="Nike Air Max 97.mp4" type="video/mp4">
+      
+    </video>
+    
+
+
+
+
+    <div class="SveCene">
+        <div class="product">
+            <img src="Air Max 97.png" width="500px" height="520px" alt="Nike Air Max 97">
+            <div class="product-info">
+                <p class="lor"><b>Nike Air Max 97</b><br>
+                <i>€189.99</i><br>
+                Sleek. Stylish. Simple. 
+                The Air Max 97's water-inspired design flows whether you're out for a run or a night on the town. 
+                Full-length Nike Air cushioning lets you ride in performance comfort.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="available">38</button></li>
+                    <li class="shoe-size"><button class="unavailable">39</button></li>
+                    <li class="shoe-size"><button class="available">40</button></li>
+                    <li class="shoe-size"><button class="available">41</button></li>
+                    <li class="shoe-size"><button class="available">42</button></li>
+                    <li class="shoe-size"><button class="unavailable">43</button></li>
+                    <li class="shoe-size"><button class="unavailable">44</button></li>
+                    <li class="shoe-size"><button class="unavailable">45</button></li>
+                    <li class="shoe-size"><button class="unavailable">46</button></li>
+                    <li class="shoe-size"><button class="available">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
             </div>
-            <div class="col-md-6 text-center" style="text-align: center;padding-top: 15%; padding-left: 25%; ">
-                <h3 >Find the best sports equipment in one place </h3><br>
-                <h4>
-                    Are you interested in what's on sale? <br>We have a million products on sale for you</h4><br>
-                
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
+        </div>
+    
+
+        <div class="product">
+            <img src="Jordan 11.png" width="500px" height="520px" alt="Air Jordan 11">
+            <div class="product-info">
+                <p class="lor"><b>Air Jordan 11 'Gratitude'</b><br>
+                <i>€209.99</i><br>
+                From us, to you—this release of the AJ11 is a "thank you" to our day ones and those committed to carrying the Jordan legacy forwards. 
+                Celebrating a heritage colourway, 
+                this classic honours MJ's legacy while elevating the materials for those pushing culture to new heights. 
+                The upper is designed with a mix of premium materials like luxe leather, along with a smooth knit collar. 
+                The glossy patent leather mudguard gleams just like the original. 
+                A tinted translucent outsole offers a clean finish while the welded gold Jumpman radiates the shoe's championship roots.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="available">38</button></li>
+                    <li class="shoe-size"><button class="available">39</button></li>
+                    <li class="shoe-size"><button class="unavailable">40</button></li>
+                    <li class="shoe-size"><button class="available">41</button></li>
+                    <li class="shoe-size"><button class="unavailable">42</button></li>
+                    <li class="shoe-size"><button class="unavailable">43</button></li>
+                    <li class="shoe-size"><button class="unavailable">44</button></li>
+                    <li class="shoe-size"><button class="unavailable">45</button></li>
+                    <li class="shoe-size"><button class="available">46</button></li>
+                    <li class="shoe-size"><button class="available">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
             </div>
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Air Max 270.png" width="500px" height="520px" alt="Air Max 270">
+            <div class="product-info">
+                <p class="lor"><b>Nike Air Max 270</b><br>
+                <i>€111.99</i><br>
+                Nike's first lifestyle Air Max brings you style, comfort and big attitude in the Nike Air Max 270. 
+                The design draws inspiration from Air Max icons, showcasing Nike's greatest innovation with its large window and fresh array of colours.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="available">38</button></li>
+                    <li class="shoe-size"><button class="unavailable">39</button></li>
+                    <li class="shoe-size"><button class="unavailable">40</button></li>
+                    <li class="shoe-size"><button class="available">41</button></li>
+                    <li class="shoe-size"><button class="available">42</button></li>
+                    <li class="shoe-size"><button class="available">43</button></li>
+                    <li class="shoe-size"><button class="available">44</button></li>
+                    <li class="shoe-size"><button class="unavailable">45</button></li>
+                    <li class="shoe-size"><button class="available">46</button></li>
+                    <li class="shoe-size"><button class="available">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
+            </div>
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Air Max 1.png" width="500px" height="520px" alt="Air Max 1">
+            <div class="product-info">
+                <p class="lor"><b>Nike Air Max 1 Premium</b><br>
+                <i>€169.99</i><br>
+                The first shoe to reveal Nike Air to the world gets elevated with Parisian-inspired details. 
+                Add this to the tried-and-tested cushioning and classic wavy mudguard and it's no wonder it reigns supreme.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="available">38</button></li>
+                    <li class="shoe-size"><button class="unavailable">39</button></li>
+                    <li class="shoe-size"><button class="unavailable">40</button></li>
+                    <li class="shoe-size"><button class="unavailable">41</button></li>
+                    <li class="shoe-size"><button class="unavailable">42</button></li>
+                    <li class="shoe-size"><button class="unavailable">43</button></li>
+                    <li class="shoe-size"><button class="unavailable">44</button></li>
+                    <li class="shoe-size"><button class="unavailable">45</button></li>
+                    <li class="shoe-size"><button class="unavailable">46</button></li>
+                    <li class="shoe-size"><button class="available">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
+            </div>
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Air Max Plus OG.png" width="500px" height="520px" alt="Air Max Plus OG">
+            <div class="product-info">
+                <p class="lor"><b>Nike Air Max Plus OG</b><br>
+                <i>€189.99</i><br>
+                Hot, hot, hot! Better than gold and more sensory-stimulating than grandma's raspberry pie, 
+                this fiery take on the Air Max Plus delivers head-turning gradient glory. 
+                Its tuned Nike Air experience offers unbelievable cushioning, 
+                while the upper fades from gold to raspberry red—recalling classic '90s style. For extra splash, 
+                the prominent arch on the midsole draws inspiration from a whale's tail and the plastic cage on the upper nods to palm trees and ocean waves. 
+                But don't be fooled—this sneaker is all fire.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="unavailable">38</button></li>
+                    <li class="shoe-size"><button class="unavailable">39</button></li>
+                    <li class="shoe-size"><button class="unavailable">40</button></li>
+                    <li class="shoe-size"><button class="available">41</button></li>
+                    <li class="shoe-size"><button class="unavailable">42</button></li>
+                    <li class="shoe-size"><button class="unavailable">43</button></li>
+                    <li class="shoe-size"><button class="unavailable">44</button></li>
+                    <li class="shoe-size"><button class="unavailable">45</button></li>
+                    <li class="shoe-size"><button class="unavailable">46</button></li>
+                    <li class="shoe-size"><button class="unavailable">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
+            </div>
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Jordan Stadium 90.png" width="500px" height="520px" alt="Jordan Stadium 90">
+            <div class="product-info">
+                <p class="lor"><b>Jordan Stadium 90</b><br>
+                <i>€139.99</i><br>
+                Comfort is king, but that doesn't mean you have to sacrifice style. 
+                Taking design inspiration from the AJ1 and AJ5, 
+                the Stadium 90 is ready for everyday wear. 
+                The upper is made from leather and airy woven, 
+                so you get both breathability and durability, and Nike Air cushioning in the sole keeps your every step light and cushioned.
+                </p>
+                <ul class="shoe-sizes">
+                    <li class="shoe-size"><button class="unavailable">38</button></li>
+                    <li class="shoe-size"><button class="unavailable">39</button></li>
+                    <li class="shoe-size"><button class="available">40</button></li>
+                    <li class="shoe-size"><button class="available">41</button></li>
+                    <li class="shoe-size"><button class="available">42</button></li>
+                    <li class="shoe-size"><button class="unavailable">43</button></li>
+                    <li class="shoe-size"><button class="available">44</button></li>
+                    <li class="shoe-size"><button class="available">45</button></li>
+                    <li class="shoe-size"><button class="available">46</button></li>
+                    <li class="shoe-size"><button class="available">47</button></li>
+                    <li class="shoe-size"><button class="available">48</button></li>
+                    <li class="shoe-size"><button class="available">49</button></li>
+                    <!-- Dodajte ili uklonite klase "available" i "unavailable" prema potrebama -->
+                  </ul>
+            </div>
+        </div>
+        <div class="large-button-container">
+            <button class="large-button">Add to Cart</button>
         </div>
 
 
-        <div class="row" >
-            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
-            <div class="col-md-12 text-center"
-                style="background-color: rgb(0, 0, 0); padding-top: 3%; padding-bottom: 3%;">
-                <div class="tekst">The most popular men sneakers on the earth</div>
 
-            </div>
-        </div>
-        <div class="row">
-            <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
-            <div class="col-md-1 text-center"></div>
-            <div class="col-md-10 text-center" style=" padding-top: 3%;">
-                <div class="card">
-                    <img class="card-img-top rounded" style="height: 100%;" src="./galerija/Panda.png"
-                            alt="Card image">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title" style="padding-top: 230px;">NIKE DUNK LOW RETRO</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br>
+
+
+        
+
         <div class="row">
             <!-- col-md-4 - col se odnosi na kolonu, md-medium, 4 na sirinu 4 -->
             <div class="col-md-12 text-center"
@@ -146,16 +308,6 @@
         </div>
 
        
-        <script>
-            // When the user scrolls the page, execute myFunction 
-            window.onscroll = function () { myFunction() };
-
-            function myFunction() {
-                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                var scrolled = (winScroll / height) * 100;
-                document.getElementById("myBar").style.width = scrolled + "%";
-            }
         </script>
         <script>
             var myVar = setInterval(function () {
@@ -167,7 +319,16 @@
                 document.getElementById("clock").innerHTML = d.toLocaleTimeString();
             }
         </script>
-
+          <script>
+            // Resize the video background to match the window size
+            window.addEventListener('resize', function () {
+              var video = document.getElementById('video-background');
+              video.style.height = window.innerHeight + 'px';
+            });
+        
+            // Trigger the resize event initially
+            window.dispatchEvent(new Event('resize'));
+          </script>
 </body>
 
 </html>

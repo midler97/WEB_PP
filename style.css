@@ -17,7 +17,7 @@ h3{
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  white;
-    font-size: 25px;
+    font-size: 50px;
   }
 
   h4{
@@ -51,6 +51,8 @@ h3{
     height: 100%;
     object-fit: cover; 
     z-index: -1; 
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
   }
 
   #content {
@@ -58,6 +60,101 @@ h3{
     z-index: 1; 
     text-align: center;
     padding: 50px;
-    background-color: black;
-    
+    background-color:rgba(0, 0, 0, 0.7);
   }
+  .SveCene{
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+.product {
+  display: flex;
+  align-items: center; 
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+.product img {
+  margin-right: 20px; 
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.lor {
+  margin-top: 0px;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.shoe-sizes {
+  margin-top: 0px;
+  width: 20%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin-bottom: 40px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tri kolone */
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.shoe-size {
+  margin: 5px;
+  text-align: center;
+}
+
+.available {
+  background-color: #ffffff; /* Zelena boja */
+  color: #000000;
+  border: none;
+  padding: 20px; /* Povećajte veličinu dugmeta */
+  border-radius: 5px;
+  cursor: pointer;
+}
+.available:hover {
+  background-color: #ffffff; /* Zelena boja */
+  color: #3b0000;
+  border: 6px solid #ffffff; /* Crni border */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Klasa za nedostupne brojeve */
+.unavailable {
+  background-color: #6b6b6b; /* Crvena boja */
+  color: #000000;
+  border: none;
+  padding: 20px; /* Povećajte veličinu dugmeta */
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+.large-button {
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 35%;
+  align-self: left;
+  font-size: 18px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8); /* Zelena boja */
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.large-button:hover {
+  background-color: #7a7a7a; /* Tamnija nijansa zelene */
+}
